@@ -1,0 +1,52 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    	<head>
+    		<title>::Pomo Planning:: Gerenciamento de projetos com uso do método Scrum e da Técnica Pomodoro</title>
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<script language="JavaScript">
+  			function validar(){
+    				// só permitirá o envio se os dados forem fornecidos
+    				if(document.login.nome.value == ""){
+      					alert("Forneça o nome do usuário");
+      					document.login.nome.focus();
+      					return false;
+    				}
+    				else if(document.login.senha.value == ""){
+      					alert("Forneça a senha do usuário");
+      					document.login.senha.focus();
+      					return false;
+    				}
+    				else
+      					return true;
+  				}
+		</script>
+	</head>
+	<body>
+		<center><img src="imagens/PomoPlanning.png" height="100" width="500"></center>
+		<br>
+		<br>
+		<form name="login" action="Index PomoPlannin.html" method="post" onsubmit="return validar()">
+
+			<font face="Trebuchet MS"><center>Login: <input type="text" name="nome"> </center>
+			<center>Senha: <input type="password" name="senha"> </center>
+			<center> <input type="submit" value="Entrar"></center></font>
+		</form>
+		<font size=2 face="Trebuchet MS"><center><p> Ainda não experimentou o PomoPlanning?<br>
+		<a href="">Adquira já essa nova experiência de gerenciamento de projeto!</a></p></center></font>
+		<center><font face="Trebuchet MS"size=1> Desenvolvido por:</font></center>
+		<center><img src="imagens/SALE.png" height="35" width="70"></center>
+		<center>
+			<font size="1" face="Trebuchet MS">SALE2 Tecnology Inc.<br>
+			Rua Android, 5050<br>
+			Recife-Pernambuco-Brasil<br>
+			www.sale2.com</font>
+		</center>
+
+	</body>
+</html>
+
+
